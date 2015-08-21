@@ -15,3 +15,6 @@ organization to develop the control software for a new generation of ship to shi
 of supervising the project. In order to protect the government of Veloria, what clauses do you include in the 
 contract with the software developers?
 
+13. You need to hire software developers for your organization. What skills and/or personlity traits
+(besides technical software engineering skills) would you expect successfull applicants to have explain your answer.
+
