@@ -17,7 +17,7 @@
 		 - Doesn't handle requirements changing well
 	 - Iterative and Incremental
 		 - All "flows" are done in each increment but to varying degrees
-		 - Multiple opprotunities to test, receive feedback, and adjust
+		 - Multiple opportunities to test, receive feedback, and adjust
 		 - Specific expectations (deliverables) for each increment and each workflow
 		 - Reduces risk because there is interaction after each step in the process
 		 - (Rational) Unified Process
@@ -27,7 +27,7 @@
  - Evolutionary Development (Build-and-Fix)
 	 - No design
 	 - No Specifications
-		 - Maintenence Nightmare
+		 - Maintenance Nightmare
 	 - The easiest way to develop software
 	 - The most expensive way
 	 - ![Spiral Model](https://courses.cs.vt.edu/csonline/SE/Lessons/Spiral/spiral.gif)
@@ -41,7 +41,7 @@
 		 - For short-lifetime systems
  - Rapid Prototyping
 	 - Prototype to define requirements
-	 - Explore porrly understood requirements
+	 - Explore poorly understood requirements
 	 - Explore new technology
 	 - **RAPID**
  - Open Source
@@ -73,11 +73,11 @@
 		 - Book contains a chart of various other models on page 67
  - Software Process Maturity
 	 - ![Maturity Model](http://www.ibiblio.org/gferg/ldp/SCM-OpenSource/cmm.png)
-	 - CMM-SW - Capabilty Maturity Model for Software
+	 - CMM-SW - Capability Maturity Model for Software
  - Focus on Quality
 	 - Begins with the individual
 		 - Awareness
-		 - Best Proctices
+		 - Best Practices
 		 - Commitment
 		 - Bottom-up and Top-down
 	 - Personal Software Process
@@ -85,6 +85,6 @@
  - The primary goal of any process is **High Quality** software
 	 - How well does a product meet its specification
 	 - Problematic
-		 - Tension between the customer (efficiency, reliability, etc.) and the developer (maintainability, reusabilty, etc.)
+		 - Tension between the customer (efficiency, reliability, etc.) and the developer (maintainability, reusability, etc.)
 		 - Some quality requirements are difficult to specify in an unambiguous way
 		 - Specifications are usually incomplete
