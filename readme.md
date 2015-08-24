@@ -11,5 +11,5 @@
 3. `git push -u origin master` Sync up to GitHub.
 
 ## Contributing
-Please email me at [jazarobsky@crimson.ua.edu](mailto:jazarobsky@crimson.ua.edu) 
-or [jzarob@gmail.com](mailto:jzarob@gmail.com) so you can be a contributor.
+Please contact any of the collaborators listed below in order to make changes:
+- [Jacob Zarobsky](mailto:jazarobsky@crimson.ua.edu)
