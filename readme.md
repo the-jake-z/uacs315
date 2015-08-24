@@ -15,5 +15,6 @@ Please contact any of the collaborators listed below in order to make changes:
 - [Jake Zarobsky](mailto:jazarobsky@crimson.ua.edu)
 
 ## Tools for Viewing & Editing the Notes
-- (Mac OS X) [MacDown](https://github.com/uranusjr/macdown)
+- (OS X) [MacDown](https://github.com/uranusjr/macdown)
 - (Windows) [MarkdownPad](http://markdownpad.com)
+- (Linux/OS X/Windows) [Atom](https://atom.io) 
