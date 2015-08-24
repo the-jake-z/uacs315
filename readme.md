@@ -15,9 +15,9 @@ Please contact any of the collaborators listed below in order to make changes:
 - [Jake Zarobsky](mailto:jazarobsky@crimson.ua.edu)
 
 ## Tools for Viewing & Editing the Notes
-- (OS X) [MacDown](https://github.com/uranusjr/macdown)
-- (Windows) [MarkdownPad](http://markdownpad.com)
-- (Linux/OS X/Windows) [Atom](https://atom.io)
+- [MacDown](https://github.com/uranusjr/macdown) (OS X)
+- [MarkdownPad](http://markdownpad.com) (Windows)
+- [Atom](https://atom.io) (Linux/OS X/ Windows)
 
 ## Markdown Syntax Help
 We use Markdown for all of our notes, which makes them easily accessible in plaintext, but still allows
