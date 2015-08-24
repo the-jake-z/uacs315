@@ -17,4 +17,13 @@ Please contact any of the collaborators listed below in order to make changes:
 ## Tools for Viewing & Editing the Notes
 - (OS X) [MacDown](https://github.com/uranusjr/macdown)
 - (Windows) [MarkdownPad](http://markdownpad.com)
-- (Linux/OS X/Windows) [Atom](https://atom.io) 
+- (Linux/OS X/Windows) [Atom](https://atom.io)
+
+## Markdown Syntax Help
+We use Markdown for all of our notes, which makes them easily accessible in plaintext, but still allows
+for pretty formatting when put through a Markdown renderer. Information on how to use Markdown can be found
+at the following places:
+- [Markdown Tutorial](http://markdowntutorial.com)
+- [Daring Fireball](http://daringfireball.net/projects/markdown/basics)
+- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
