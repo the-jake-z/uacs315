@@ -1,0 +1,90 @@
+#CS 315
+
+##Chapter 2: Software Development Lifecycle Models
+
+ - [Lecture Notes](https://ualearn.blackboard.com/bbcswebdav/pid-1822226-dt-content-rid-13672579_1/courses/45063.201540/Chapter02.pdf)
+ - Idealized Model
+	 - Linear
+	 - Start from Scratch
+	 - "Greenfield" situation
+	 - Got it right the first time
+ - Waterfall Model
+	 - Linear with Feedback
+	 - ![Waterfall Model](http://robabdul.com/wp-content/uploads/2015/02/Waterfall-Model.gif)
+	 - Pros
+		 - Good for contracting
+	 - Cons
+		 - Doesn't handle requirements changing well
+	 - Iterative and Incremental
+		 - All "flows" are done in each increment but to varying degrees
+		 - Multiple opprotunities to test, receive feedback, and adjust
+		 - Specific expectations (deliverables) for each increment and each workflow
+		 - Reduces risk because there is interaction after each step in the process
+		 - (Rational) Unified Process
+			 - ![Unified Process](https://upload.wikimedia.org/wikiversity/en/a/aa/RationalUnifiedProcess.png)
+			 - [Unified Process Site](http://www.upedu.org/)
+				 - Good resource with a lot of templates
+ - Evolutionary Development (Build-and-Fix)
+	 - No design
+	 - No Specifications
+		 - Maintenence Nightmare
+	 - The easiest way to develop software
+	 - The most expensive way
+	 - ![Spiral Model](https://courses.cs.vt.edu/csonline/SE/Lessons/Spiral/spiral.gif)
+	 - Problems
+		 - Lack of process visibility
+		 - Systems are often poorly structured
+		 - Special skills (e.g. in languages for rapid prototyping) may be required
+	 - Applicability
+		 - For small or medium-sized interactive systems
+		 - For parts of large systems (e.g. the user interface)
+		 - For short-lifetime systems
+ - Rapid Prototyping
+	 - Prototype to define requirements
+	 - Explore porrly understood requirements
+	 - Explore new technology
+	 - **RAPID**
+ - Open Source
+	 - Core group with "Support Group"
+	 - Quick Releases
+	 - Lacks documentation and design
+ - Agile Processes
+	 - Driven by customer descriptions of what is required (scenarios)
+	 - Recognizes that plans are short-lived
+	 - Develops software iteratively with a heavy emphasis on construction activities
+	 - Delivers multiple 'software increments'
+	 - Adapts as changes occur
+	 - [Extreme Programming](http://www.extremeprogramming.org/)
+		 - ![Extreme Programming Lifecycle](http://www.extremeprogramming.org/map/images/project.gif)
+		 - User Stories are what the user wants
+			 - Refined into requirements that can be tested
+	 - Scrum
+		 - All requirements become features in the backlog
+		 - Features from the backlog are selected for the next 'sprint' (14 days, 30 days, etc.)
+		 - Daily meeting that covers:
+			 - What you did yesterday
+			 - What you are doing today
+			 - Any issues/blockers
+		 - New functionality is demonstrated at the end of the sprint
+	 - Other Models
+		 - Sync-and-Stabilize
+			 - Microsoft Model
+			 - Consisted of daily check-outs and check-ins
+		 - Book contains a chart of various other models on page 67
+ - Software Process Maturity
+	 - ![Maturity Model](http://www.ibiblio.org/gferg/ldp/SCM-OpenSource/cmm.png)
+	 - CMM-SW - Capabilty Maturity Model for Software
+ - Focus on Quality
+	 - Begins with the individual
+		 - Awareness
+		 - Best Proctices
+		 - Commitment
+		 - Bottom-up and Top-down
+	 - Personal Software Process
+	 - Team Software Process
+ - The primary goal of any process is **High Quality** software
+	 - How well does a product meet its specification
+	 - Problematic
+		 - Tension between the customer (efficiency, reliability, etc.) and the developer (maintainability, reusabilty, etc.)
+		 - Some quality requirements are difficult to specify in an unambiguous way
+		 - Specifications are usually incomplete
