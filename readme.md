@@ -12,7 +12,7 @@
 
 ## Contributing
 Please contact any of the collaborators listed below in order to make changes:
-- [Jacob Zarobsky](mailto:jazarobsky@crimson.ua.edu)
+- [Jake Zarobsky](mailto:jazarobsky@crimson.ua.edu)
 
 ## Tools for Viewing & Editing the Notes
 - (Mac OS X) [MacDown](https://github.com/uranusjr/macdown)
