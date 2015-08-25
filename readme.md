@@ -1,4 +1,4 @@
-# CS 315
+# CS 315 - Fall 2015
 
 ## Getting Started
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
