@@ -5,6 +5,8 @@
 2. Clone the repository. `git clone https://github.com/jzarob/uacs315.git cs315`
 3. Done, you should have a working local copy. :)
 
+[More Detailed Instructions from GitHub](https://help.github.com/articles/set-up-git/#platform-all)
+
 ## Commiting Changes
 1. Add all pending changes to your commit. `git add *`
 2. Commit your changes to a local repo. `git commit -m "your commit message"`
