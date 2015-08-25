@@ -2,7 +2,7 @@
 
 ##Chapter 2: Software Development Lifecycle Models
 
- - [Lecture Notes](https://ualearn.blackboard.com/bbcswebdav/pid-1822226-dt-content-rid-13672579_1/courses/45063.201540/Chapter02.pdf)
+ - [Lecture Notes](source_items/Chapter02.pdf)
  - Idealized Model
 	 - Linear
 	 - Start from Scratch
