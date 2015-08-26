@@ -10,7 +10,7 @@
 
 ## Commiting Changes
 1. Pull from GitHub `git pull -u origin master`
-2. Add all pending changes to your commit. `git add *`
+2. Add all pending changes to your commit. `git add -A`
 3. Commit your changes to a local repo. `git commit -m "your commit message"`
 4. Push your changes to GitHub `git push -u origin master`
 
