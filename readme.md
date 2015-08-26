@@ -2,6 +2,7 @@
 
 ## Getting Started
 1. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - Make sure you choose the option to include Git in your PATH variable.
 2. Clone the repository. `git clone https://github.com/jzarob/uacs315.git cs315`
 3. Done, you should have a working local copy. :)
 
