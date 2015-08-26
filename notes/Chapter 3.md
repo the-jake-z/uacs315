@@ -2,6 +2,7 @@
 
 ##Chapter 3: The Software Process
 
+ - [Lecture Slides](https://ualearn.blackboard.com/bbcswebdav/pid-1830140-dt-content-rid-13704228_1/courses/45063.201540/Chapter03.pdf)
  - The Unified Process
 	 - In 1999, Booch, Jacobson, and Rumbaugh published a complete object oriented analysis and design methodology that unified their three separate methodologies
 		 - Original Name: *Rational Unified Process* (RUP)
