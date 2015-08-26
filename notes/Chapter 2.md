@@ -88,5 +88,3 @@
 		 - Tension between the customer (efficiency, reliability, etc.) and the developer (maintainability, reusability, etc.)
 		 - Some quality requirements are difficult to specify in an unambiguous way
 		 - Specifications are usually incomplete
-
-This is something that I can checkin later.
