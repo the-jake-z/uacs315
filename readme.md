@@ -8,9 +8,10 @@
 [More Detailed Instructions from GitHub](https://help.github.com/articles/set-up-git/#platform-all)
 
 ## Commiting Changes
-1. Add all pending changes to your commit. `git add *`
-2. Commit your changes to a local repo. `git commit -m "your commit message"`
-3. Push your changes to GitHub `git push -u origin master`
+1. Pull from GitHub `git pull -u origin master`
+2. Add all pending changes to your commit. `git add *`
+3. Commit your changes to a local repo. `git commit -m "your commit message"`
+4. Push your changes to GitHub `git push -u origin master`
 
 ## Contributing
 Please contact any of the collaborators listed below in order to make changes:
