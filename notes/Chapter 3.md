@@ -177,20 +177,20 @@
 			 - Monitor risks and refine their priorities
 			 - Refine business case
 			 - Produce software project management plan
-		 - Elaboration tasks
-			 - Complete the requirements workflow
-			 - Perform almost the entire analysis workflow
-			 - Start the design of the architecture
-			 - Set up the development and testing environments
-		 - Elaboration Deliverables
-			 - The completed domain model
-			 - The completed business model
-			 - The completed requirements artifacts
-			 - The completed analysis artifacts
-			 - An updated version of the architecture
-			 - An updated list of risks
-			 - The project management plan (for the rest of the project)
-			 - The completed business case
+			 - Elaboration tasks
+				 - Complete the requirements workflow
+				 - Perform almost the entire analysis workflow
+				 - Start the design of the architecture
+				 - Set up the development and testing environments
+			 - Elaboration Deliverables
+				 - The completed domain model
+				 - The completed business model
+				 - The completed requirements artifacts
+				 - The completed analysis artifacts
+				 - An updated version of the architecture
+				 - An updated list of risks
+				 - The project management plan (for the rest of the project)
+				 - The completed business case
 	 - Implementation Phase
 		 - **Goal**: produce the first operational-quality version of the software
 		 - Tasks
@@ -211,7 +211,7 @@
 		 - Driven by feedback from the beta release
 		 - Deliverables
 			 - All the artifacts in their final version
-- One vs Two Dimensional Model
- - One dimension is not really an accurate model
- - Two Dimensional is more descriptive and prescriptive of how software development works
-	 - Much more accepting of multiple processes going on at the same time
+ - One vs Two Dimensional Model
+	 - One dimension is not really an accurate model
+	 - Two Dimensional is more descriptive and prescriptive of how software development works
+		 - Much more accepting of multiple processes going on at the same time
