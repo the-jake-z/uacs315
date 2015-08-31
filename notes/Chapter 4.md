@@ -19,6 +19,7 @@
 	 - Brooks' Law
 		 - "Adding manpower to a late software project makes it later"
  - Democratic Team Approach
+	 - ![Democratic Team](http://i.stack.imgur.com/smL1j.png)
 	 - Basic underlying concept - egoless programming 
 	 - Programming can be highly attached to their code
 		 - They even name their modules after themselves
@@ -31,6 +32,7 @@
 	 - Management may have difficulties
 		 - Democratic teams are hard to introduce into an undemocratic environment
  - Classical Chief Programmer Team
+	 - ![Chief Programmer Team](http://i.stack.imgur.com/Bc5za.png)
 	 - The basic idea behind the concept
 		 - Analogy: chief surgeon directing an operation, assisted by:
 			 - Other surgeons
