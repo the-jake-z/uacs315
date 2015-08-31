@@ -3,21 +3,25 @@
 ##Chapter 4: Software Teams
 
  - Understand what the Client needs
-	 - A product must be completed within 3 months, but 1 person-year of programing is still needed
-	 - Solution:
-		 - if one programmer can code the product in 1 year, four programmers can do it in 3 months
-	 - Nonsense!
-		 - Four programmers will probably take nearly a year
-		 - The quality of the product is usually lower
+	 - Example
+		 - A product must be completed within 3 months, but 1 person-year of programing is still needed
+		 - Solution:
+			 - If one programmer can code the product in 1 year, four programmers can do it in 3 months
+		 - Nonsense!
+			 - Four programmers will probably take nearly a year
+			 - The quality of the product is usually lower
  - Software Teams
 	 - 3 programmers, deadline is rapidly approaching and code is still incomplete
 	 - 3 channels of communication between 3 programmers
-	 - Solution: add a fourth programmer!
-	 - But other 3 have to explain in detail
+	 - Solution: Add a fourth programmer!
+	 - But other 3 have to explain in detail:
 		 - What has been done?
 		 - What is left to do?
+	 - Now 6 channels of communication
+		 - `(n(n-1))/2`
 	 - Brooks' Law
 		 - "Adding manpower to a late software project makes it later"
+		 - The Mythical Man-Month (Fred Brooks, 1975)
  - Democratic Team Approach
 	 - ![Democratic Team](http://i.stack.imgur.com/smL1j.png)
 	 - Basic underlying concept - egoless programming 
@@ -31,6 +35,8 @@
 	 - They function well in a function in a research environment
 	 - Management may have difficulties
 		 - Democratic teams are hard to introduce into an undemocratic environment
+		 - Who's in charge?
+		 - Who keeps the team on schedule?
  - Classical Chief Programmer Team
 	 - ![Chief Programmer Team](http://i.stack.imgur.com/Bc5za.png)
 	 - The basic idea behind the concept
@@ -49,9 +55,9 @@
 		 - The *back-up programmer* must be as good as the chief programmer
 			 - But he/she must take a back seat (and a lower salary) waiting for something to happen to the chief programmer
 			 - Top programmers, top managers will not do not
-		 - the programming secretary does nothing but paperwork all day
+		 - the *programming secretary* does nothing but paperwork all day
 			 - Software professionals hate paperwork
-		 - Classical CPT is impractical
+		 - **Classical CPT is impractical**
  - Beyond CP and Democratic Teams
 	 - Organization that combines democratic and chief programmer
 	 - Models
@@ -61,4 +67,5 @@
 		 - The nontechnical side is similar
 			 - For even larger projects, add additional layers
 	 - Decentralize the decision making process, where appropriate
-		 - Useful where the democratic team is good~~~~
+		 - Useful where the democratic team is good
+	 - Table of examples on page 120 of the book
