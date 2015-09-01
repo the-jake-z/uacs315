@@ -18,6 +18,7 @@
 Please contact any of the collaborators listed below in order to make changes:
 
 - [Jake Zarobsky](mailto:jazarobsky@crimson.ua.edu)
+- [Andrew White] (mailto:aswhite1@crimson.ua.edu)
 
 ## Tools for Viewing & Editing the Notes
 - [MacDown](https://github.com/uranusjr/macdown) (OS X)
