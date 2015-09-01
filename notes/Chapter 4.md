@@ -69,3 +69,5 @@
 	 - Decentralize the decision making process, where appropriate
 		 - Useful where the democratic team is good
 	 - Table of examples on page 120 of the book
+
+At the end of class, we let the TA know our teams for our semester long project.
