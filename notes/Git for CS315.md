@@ -30,8 +30,6 @@ We're going to use the Git plugin that's built into Eclipse for our project. **A
 
 For detailed instructions with screenshots, please view the lecture slides on [blackboard](https://ualearn.blackboard.com/bbcswebdav/pid-1844918-dt-content-rid-13806123_1/courses/45063.201540/1-Software%20Versioning.pdf).
 
-Huseyin offered some tips with regards to conflicts:
-
 ## Conflicts
 You will always end up with conflicts!
 
@@ -46,7 +44,7 @@ To fix, right click the file in the unstaged commits changes and click the "Merg
 
 Once you are done, you can stage the commit, and commit and push the same way that you check in files.
 
-#### Stragegies
+#### Strategies
 - Try to avoid conflicts instead of merging them later because merging is tedious and error prone.
 - Every now and then, before working on a project, do a "pull" first and keep synchronized with the remote repo.
 - "push" frequently! 
