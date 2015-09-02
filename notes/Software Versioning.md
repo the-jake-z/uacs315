@@ -121,13 +121,13 @@
 			 -  Repos everywhere (not just on the server)
 			 -  Terminology
 				 -  Clone
-					 -  Same as checkout but also creating a repo for your local computer
+					 -  Same as checkout but also creates a repo for your local computer
 				 -  Fetch
 					 -  Check if anything changed in remote repo
 				 -  Stage (or add)
 					 -  Approve changes to be committed
 				 -  Commit
-					 -  Same meaning but only commit to local repo
+					 -  Commit changes to local repo
 				 -  Push
 					 -  Applies the local commits to remote repository
 				 -  Pull
