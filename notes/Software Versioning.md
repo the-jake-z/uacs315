@@ -1,6 +1,6 @@
-#CS 315 - Lecture 5 - Sep 2, 2015
+# CS 315 - Lecture 5 - Sep 2, 2015
 
-##Software Versioning
+## Software Versioning
 
  - Software Change
 	 - Whenever a product is maintained, there will be a version

@@ -1,6 +1,6 @@
-#CS 315 - Lecture 3 - Aug 26, 2015
+# CS 315 - Lecture 3 - Aug 26, 2015
 
-##Chapter 3: The Software Process
+## Chapter 3: The Software Process
 
  - [Lecture Slides](https://ualearn.blackboard.com/bbcswebdav/pid-1830140-dt-content-rid-13704228_1/courses/45063.201540/Chapter03.pdf)
  - The Unified Process

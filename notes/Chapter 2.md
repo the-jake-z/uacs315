@@ -1,6 +1,6 @@
-#CS 315 - Lecture 2 - Aug 24, 2015
+# CS 315 - Lecture 2 - Aug 24, 2015
 
-##Chapter 2: Software Development Lifecycle Models
+## Chapter 2: Software Development Lifecycle Models
 
  - [Lecture Notes](source_items/Chapter02.pdf)
  - Idealized Model
