@@ -102,9 +102,10 @@
 	 - Business Flow
 		 - Functionality needs to be explained in the context of a business flow
 		 - Step-by-step scenarios
-		 - Use case
+		 - Use Case
 			 - Sequence of actions that a system should perform within the business flow context of the user
-	 -  Data and Formats
+			 - Specific steps necessary to accomplish a specific task
+	 -  Data & Formats
 		 - Determine the application's input and output data
 			 - What needs to be entered into the system?
 			 - For what purpose?
@@ -117,7 +118,7 @@
 		 - How the input and output are presented
 		 - Look and Feel
 		 - Flow should follow business flow as close as possible
-		 - Screenshots, mocking, rapid prototyping
+		 - Screenshots, mocking, **rapid prototyping**
 	 - Interface with Other Systems
 		 - Existing applications, network systems
 		 - Some requirements may require a modification in how users operate adjacent systems
@@ -128,7 +129,9 @@
 			 - Transfer of data
 			 - Receipt of responses
 			 - Error recovery, retry capabilities, messages
+		 - Should be aware of other systems as early as possible in the process
  - Non-Functional Requirements
+	 - ![Non-Functional Requirements Tree](http://usabilitygeek.com/wp-content/uploads/2013/05/Requirements-Gathering-User-Experience-UX-Non-Functional-Requirements.jpg)
 	 - Specifies properties of the software product itself
 		 - Platform constraints
 		 - Response times
@@ -140,7 +143,7 @@
 		 - Transportability
 		 - Maintainability
 	 - Typically wait until design workflow
-	 - Constraint on programming language, OS, tooling, license
+	 - Constraints on programming language, OS, tooling, license
 - Requirements Elicitation Activities
 	- Actors identification
 		- Types of users to support
