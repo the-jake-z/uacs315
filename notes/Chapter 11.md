@@ -144,29 +144,29 @@
 		 - Maintainability
 	 - Typically wait until design workflow
 	 - Constraints on programming language, OS, tooling, license
-- Requirements Elicitation Activities
-	- Actors identification
-		- Types of users to support
-	- Scenarios identification
-		- Observe users in their daily activities
-		- Concrete example per functionality
-		- Deepen understanding in application domain
-	- Use Cases identification
-		- Generalize scenarios to completely represent the system
-		- Abstraction from scenarios describing all possible cases
-		- This defines the scope of the system
-	- Use Case refinement
-		- Make sure the requirements are complete
-		- Detailed description of behavior
-		- Handle error and and exceptional conditions
-	- Use Case relationship identification
-		- find dependencies between use cases
-		- Factor out common functionality
-		- Ensure requirements are consistent
-	- Non-Functional Requirements Identification
-		- Agree on aspects visible to user
-		- Performance
-		- Documentation
-		- Resource
-		- Consumption
-		- Quality
+ - Requirements Elicitation Activities
+	 - Actors identification
+		 - Types of users to support
+	 - Scenarios identification
+		 - Observe users in their daily activities
+		 - Concrete example per functionality
+		 - Deepen understanding in application domain
+	 - Use Cases identification
+		 - Generalize scenarios to completely represent the system
+		 - Abstraction from scenarios describing all possible cases
+		 - This defines the scope of the system
+	 - Use Case refinement
+		 - Make sure the requirements are complete
+		 - Detailed description of behavior
+		 - Handle error and and exceptional conditions
+	 - Use Case relationship identification
+		 - find dependencies between use cases
+		 - Factor out common functionality
+		 - Ensure requirements are consistent
+	 - Non-Functional Requirements Identification
+		 - Agree on aspects visible to user
+		 - Performance
+		 - Documentation
+		 - Resource
+		 - Consumption
+		 - Quality
