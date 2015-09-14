@@ -170,3 +170,62 @@
 		 - Resource
 		 - Consumption
 		 - Quality
+ - Use Cases
+	 - Use Case elements
+		 - System
+			 - Scope of the system to develop
+		 - Actor
+			 - Has a goal in using the system
+			 - An actor is a role of interaction
+		 - Goal
+			 - What the actor wants to achieve by interacting with the system
+			 - Each goal is a use case
+			 - Written in text
+	 - Use Cases
+		 - A use case models an interaction between the software product itself and the users of that software product (actors)
+		 - A use case is initiated by an actor. After this initiation, the UC may interact with other actors as well
+		 - A UC represents a complete flow of events through the system
+		 - Describes a series of related interactions
+		 - An actor is a member of the world outside the software product
+		 - It is usually easy to identify an actor
+			 - An actor is frequently a user of the software product
+		 - In general, an actor plays a role with regard to the software product. This role is:
+			 - As a user
+			 - As an initiator
+			 - As someone who plays a critical part in the use case
+		 - A user of the system can play more than one role
+		 - An actor need not be a human being
+		 - A potential problem when identifying actors
+			 - Overlapping actors
+		 - Representation
+			 - Closed arrow represent inheritance 
+				 - Child → Parent
+				 - Specialization → Generalization
+			 - Associations
+				 - Does not indicate a data flow
+				 - Represented by dashed arrow ⇢
+				 - <\<includes>>
+					 - The logic encapsulated by the included use case is required 
+					 - An include association is that it is the invocation of a use case by another one
+				 - <\<extends>>
+					 - The extending use case defines logic that may be required during  a given set of steps in the parent use case
+					 - A generalization relationship
+					 - The extending use case continues the behavior of the base use case by inserting additional action sequences into the base use case
+		 - Essentials
+			 - Actors
+			 - Generalization/Inheritance (Blocked arrow)
+			 - <\<include>> and <\<extends>>
+			 - Association is not data flow (no arrows)
+			 - Boundary
+			 - Use Case label is a **verb**
+			 - Every use case has a scenario
+				 - Every scenario is labeled **exactly** as the Use Case
+		 - Activity Diagrams
+			 - No Miracles
+				 - Activities with no inputs
+			 - No Black Holes/Sinks
+				 - Activities with no outputs
+			 - Forks/Joins
+				 - Like an if/switch statements
+				 - Every fork has at least two outputs
+				 - Every join has at least two inputs and one output
