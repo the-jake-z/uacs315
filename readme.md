@@ -25,6 +25,9 @@ Please contact any of the collaborators listed below in order to make changes:
 - [MarkdownPad](http://markdownpad.com) (Windows)
 - [Atom](https://atom.io) (Linux/OS X/ Windows)
 
+## Tools for CS 315
+- [Visual Paradigm - Community Edition](http://www.visual-paradigm.com)
+
 ## Markdown Syntax Help
 We use Markdown for all of our notes, which makes them easily accessible in plaintext, but still allows
 for pretty formatting when put through a Markdown renderer. Information on how to use Markdown can be found
