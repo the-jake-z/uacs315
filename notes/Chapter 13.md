@@ -74,7 +74,8 @@
 		 - Facilitator
 		 - Scribe
 	 - Literally use index cards
-	 - Simple example ![CRC Template](http://wiki.expertiza.ncsu.edu/images/f/f8/CrcCardLayout.jpg)
+	 - Simple example:
+		 - ![CRC Template](http://wiki.expertiza.ncsu.edu/images/f/f8/CrcCardLayout.jpg)
 	 - One Class per card
 	 - First pass from description
 		 - Identify likely classes
