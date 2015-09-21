@@ -16,7 +16,7 @@
 
 ---
 
-See Huseyin's Slides for VPP Lab for complete use Case Descriptions.
+See Huseyin's Slides for VPP Lab for complete use Case Descriptions for the above example. Sorry I can't type as fast as he talks... :(
 
 **Here's the format we're going to use in 315:**
 
