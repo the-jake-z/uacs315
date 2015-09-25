@@ -1,6 +1,6 @@
-#CS 315 - Lecture 4 - Aug 31, 2015
+# CS 315 - Lecture 4 - Aug 31, 2015
 
-##Chapter 4: Software Teams
+## Chapter 4: Software Teams
 
  - Understand what the Client needs
 	 - Example
