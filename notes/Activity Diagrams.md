@@ -1,4 +1,4 @@
-#CS 315 - Activity Diagrams Lab
+# CS 315 - Activity Diagrams Lab
 ## September 23, 2015
 
 Use the same description from the the Use Case Lab on 9/21 (ATM Example).
