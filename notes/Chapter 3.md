@@ -64,8 +64,8 @@
 			 - Maintenance
 	 - Design Workflow
 		 - **Goal**: Refine the analysis workflow until the material is in a form that can be implemented by the programmers
-			 - Specification: what the program has to do
-			 - Design: how it should do it
+			 - Specification: What the program has to do
+			 - Design: How it should do it
 		 - Architecture Design
 			 - Modules, communication, reliability, security, portability
 		 - Detail Design
@@ -91,7 +91,7 @@
 			 - Beta Release
 			 - Release Candidates (Microsoft, for example)
 	 - Testing Workflow
-		 - Testing is the responsibility of 
+		 - Testing is the responsibility of:
 			 - Every developer and maintainer
 			 - The quality assurance team (QA)
 		 - All artifacts from all phases must be traceable
@@ -192,7 +192,7 @@
 				 - The project management plan (for the rest of the project)
 				 - The completed business case
 	 - Implementation Phase
-		 - **Goal**: produce the first operational-quality version of the software
+		 - **Goal**: Produce the first operational-quality version of the software
 		 - Tasks
 			 - Emphasis is mainly on Implementation
 			 - Testing
@@ -204,7 +204,7 @@
 			 - The revised project management plan
 			 - If necessary, the updated business case
 	 - Transition Phase
-		 - **Goal**: ensure that the client's requirements have indeed been met
+		 - **Goal**: Ensure that the client's requirements have indeed been met
 			 - Faults in the software product are corrected
 			 - All manuals are completed
 			 - Attempts are made to discover any previously unidentified risks
@@ -213,5 +213,7 @@
 			 - All the artifacts in their final version
  - One vs Two Dimensional Model
 	 - One dimension is not really an accurate model
+		 - Software development is not well represented as a single flow of tasks which happen one after another
 	 - Two Dimensional is more descriptive and prescriptive of how software development works
+		 - Allows work to be done on multiple, smaller parts of the software product, rather than the whole thing at once (as in the one dimensional model)
 		 - Much more accepting of multiple processes going on at the same time
