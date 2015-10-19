@@ -303,6 +303,25 @@ Luckily, the strengths of these patterns outweigh the weaknesses.
 
 An interesting question in software engineering is: How do we formalize and hence automate design patterns?
 
+#### Notes
+
+No class on October 26
+
+- Test 2
+	- First 4 questions will essentially be the same as Test 1
+	- Class Diagram
+	- Activity Diagram may or may not be there
+	- Sequence Diagram
+	- Represent an architecture in UML.
+	- Encapsulation, Polymorphism, Dynamic Binding
+	- Reuse and Portability
+	- Coupling and Cohesion
+		- What's good, what's bad, and what's a good scale for both
+		- High cohesiveness with small modules, but that tightly couples code. (There's a tradeoff)
+	- Reuse and Portability
+		- Be able to repurpose code.
+		- Designing for reuse.
+
 		
 
 	
