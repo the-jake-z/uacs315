@@ -90,22 +90,22 @@
 		 - Language
 	 - Why?
 		 - Is there any point in porting software?
-			 - Incompatibilites
+			 - Incompatibilities
 			 - One-off software
 			 - Selling company-specific software may give a competitor a huge advantage
 		 - On the contrary, portability is **essential** 
 			 - Good software lasts 15 years or more
 			 - Hardware is changed every 4 years
-		 - Upwardly compatible harware works
+		 - Upwardly compatible hardware works
 			 - But it may not be cost effective
 		 - Portability can lead to increased profits
 			 - Multiple copy software
 			 - Documentation (especially manuals) must also be portable
 	 - Techniques for Achieving Portability
 		 - Obvious technique
-			 - Use standard constucts of a popular high-level language
+			 - Use standard constructs of a popular high-level language
 		 - Isolate implementation-dependent pieces
-			 - Example: Unix kernal, device drivers
+			 - Example: Unix kernel, device drivers
 		 - Utilize levels of abstraction
 			 - Example: Graphical display routines
 	 - Portable Application Software
@@ -119,3 +119,92 @@
 			 - Construct a sequential (unstructured) file and port it
 			 - Reconstruct the structured file on the target machine
 			 - The may be nontrivial for complex database models
+
+ - Design Patterns
+	 - Components
+		 - Name
+			 - Each pattern has an assigned name so it can be easily recognized
+			 - This gives us the vocabulary we can use to discuss design 
+		 - Problem (context)
+			 - Each pattern is designed to address to a specific problem
+			 - Some also have conditions before the pattern can be used
+		 - Solution
+			 - Each pattern provides a solution to a problem
+			 - Components of that solution are also known as participants
+		 - Consequences
+			 - Costs and Benefits
+			 - Trade-offs of using design patterns: flexibility, extensibility, portability
+			 - Evaluate alternative changes
+	 - Adapter Design Pattern
+		 - Adaptee: existing class with some behavior
+		 - Target: defines interface expected by the client
+		 - Adapter: implements the target interface using the functionality of the adaptee
+		 - Client: works with classes implementing the target interface
+		 - The *Adapter* Design Pattern:
+			 - Solves the implementation incompatibilities
+			 - Provides a general solution to the problem of permitting communication between two objects with incompatible interfaces
+			 - Provides a way for an object to permit access to its internal implementation without coupling clients to the structure of that internal implementation
+		 - That is, *Adapter* provides all the advantages of information hiding without having to actually hide the implementation details
+	 - Composite Design Pattern
+		 - Compose objects into tree structures to represent whole/part hierarchies
+			 - Allow client to uniformly treat objects and compositions Atomic/primitive objects
+			 - Composite objects
+		 - Component
+			 - Declared the interface for objects in the composition
+			 - Implements default behavior, as appropriate
+			 - Declares interfaces for accessing and managing child components
+		 - Leaf
+			 - Represents primitive: no children
+		 - Composite
+			 - Defines behavior for components having children
+			 - Stores child components
+			 - Implements child-related operations of the component interface
+		 - Client
+			 - Manipulates objects in the composition through the Component interface
+	 - Bridge Design Pattern
+		 - Aim of the Bridge Design Pattern
+			 - To decouple an abstraction from its implementation so that the two can be changed independently of one another
+		 - Sometimes called a driver
+			 - Example: a printer driver or a video driver
+		 - The abstract operation are uncoupled from the hardware-dependent parts
+		 - If the hardware changes, the modifications to the design and the code are localized to only one side of the bridge
+		 - The bridge design pattern is a way of achieving information hiding via encapsulation
+	 - Iterator Design Pattern
+		 - An aggregate object (or container or collection) is an object that contains other objects grouped together as a unit
+			 - Examples: linked list, hash table
+		 - An iterator (or cursor) is a programming construct allows the programmer to traverse the elements of an aggregate  object without exposing the implementation of that aggregate
+		 - An iterator may be viewed as a pointer with two main operations
+			 - Element access, or referencing a specific element in the collection
+			 - Element traversal, or modifying so it points to the next element in the collection
+		 - Implements element traversal without exposing the implementation of the aggregate
+		 - Implementation details of the elements are hidden from the iterator itself
+			 - We can use an iterator to process every element in a collection
+			 - Independently of the implementation of the container of the elements
+		 - Iterator allows different traversal methods
+		 - It even allows multiple traversals to be in progress concurrently
+			 - These traversals can be achieved without having the specific operations listed in the interface
+	 - Categories of Design Pattern
+		 - 23 Patterns grouped in 4 categories
+			 - Creational
+			 - Structural
+				 - Adapter
+				 - Bridge
+				 - Composite
+			 - Behavioral
+		 - Strengths and Weaknesses
+			 - Strengths
+				 - Design patterns promote rescue by solving a general design problem
+				 - Design patterns provide high-level design documentation, because patterns specify design abstractions
+				 - Implementations of many design patterns exist
+					 - There no need to code or document those parts of the program
+					 - They still need to be tested, however
+				 - A maintenance programmer who is familiar with design patterns can be easily comprehend a program that incorporates design patterns
+			 - Weaknesses
+				 - The use of the 23 standard design patterns may be an indication that the language we are using is not powerful enough
+				 - There is as yet no systematic way to determine when and how to apply design patterns
+				 - Multiple interacting patterns are employed to obtain maximal benefit from design patterns
+					 - But we do not yet have a systematic way of knowing when and how to use one pattern, let alone multiple interacting patterns
+				 - It is all but impossible to retrofit patterns to an existing software product
+			 - The weaknesses of design patterns are outweighed by their strengths
+			 - Research Issue: How do we formalize and hence automate design patterns?
+				 - This would make patterns much easier to use than at present
