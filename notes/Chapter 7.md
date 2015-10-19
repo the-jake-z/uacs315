@@ -200,3 +200,111 @@
 			 - The use of polymorphism and dynamic binding can lead to problems
 			 - It is easy to write bad code in any language
 				 - It is especially easy to write bad object-oriented code
+
+**Design Patterns** are generalized solutions to specific problems.
+
+Design Patterns Have a:
+
+- Name
+	- 	Each pattern has a name so it can be easily recognized.
+	-  Gives us a vocabulary we can use to discuss the design.
+-  Problem
+	-  Desgned to address a specific problem
+-  Solution
+	-  Each pattern prvoides a solution to a problem
+	-  Components to that solution are known as participants
+
+**Adapter Pattern** solves implmentation compatibilities
+
+- Provides a general solution to the problem of permitting communication between to objects with imcompatible interfaces.
+- Provides all the advantages of information hiding without having to actually hide the implementation details.
+
+**Composite Design Pattern** puts objects into tree structures to represent the whole/part hierarchies.
+
+- Component
+	- Declares the interface for objects in the composition.
+	- Implements the default behavior, as appropriate
+	- Declares interfaces for accessing and managing child components.
+- Leaf
+	- Represents primitive: no children
+- Composite
+	- Defines behavior for components having children
+	- Stores child components
+	- Implements child related operations of the component interface.
+- Client
+	- Manipulates objects in the compositions through the component interface.
+
+Trees, LinkedLists are all examples of the composite design pattern.
+
+**Bridge Design Pattern** is used to decouple the abstraction from the implementation so that the two can be changed independently of one another.
+
+- Sometimes called a driver.
+- Suppose a part of a design is hardware dependent, but the rest is not, then the design consists of two pieces:
+	- The hardware dependent parts on one side.
+	- The hardware independent parts on the other side.
+- Allows for multiple implementations with the same interface.
+- The client interacts with the abstract item. 
+
+Suppose you have a software that needs to call hardware specific functionality, then you can call the abstraction of that functionality for the specific hardware.
+
+**Iterator Design Pattern** is used by an aggregate object (container, collection, multiple items) which contains other objects group together as a unit. An iterator allows a programmer to traverse the elements of an aggregate object without exposing the implementation of that aggregate.
+
+- A pointer with two main operations:
+	- Element access
+	- Element traversal
+- Suppose you have a TV Remote Control
+	- Up Arrow increases the current channel number.
+	- Down Arrow decreases the channel number by 1. 
+	- **Note**: The keys increase or decrease the channel number without the viewer having to specify or having to know the current channel number.
+	- The device implements an element traversal without exposing the implementation of the aggregate.
+
+### Categories of Design Paterns
+- The 23 Gang of 4 patterns are grouped into three categories:
+	- Creational Patterns
+		- Abstract Factory
+		- Builder
+		- Factory Method
+		- Prototype
+		- Singleton
+	- Structural Patterns
+		- Adapter
+		- Bridge
+		- Composite
+		- Facade
+		- Flyweight
+		- Proxy
+	- Behavioral Patterns
+		- Chain of responsibility
+		- Command
+		- Interpreter
+		- Iterator
+		- Mediator
+		- Memento
+		- Observer
+		- State
+		- Strategry
+		- Template Method
+		- Visitor
+
+### Strengths and Weaknesses
+
+#### Strengths
+- Promote reuse by solving a general design problem
+- Provide highlevel design documentation
+- A maintenance programmer who is familar with design patterns can easily comprehend a program that incorporates design patterns.
+
+#### Weaknesses
+- The use of the 23 standard design patterns may be an indication that the language is not powerful enough
+- There is no systematic way to determine when and how to apply a design pattern
+- Multiple interacting paterns are employed to obtain maximal benefit from design patterns
+- It is all but impossible to retrofit patterns to an exisiting product
+
+Luckily, the strengths of these patterns outweigh the weaknesses.
+
+An interesting question in software engineering is: How do we formalize and hence automate design patterns?
+
+		
+
+	
+	
+
