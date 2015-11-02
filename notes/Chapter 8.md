@@ -18,7 +18,7 @@
 			 - In principle, 85% could be standardized and reused
 			 - In practice, reuse rates of no more than 40% are achieved
 	 - Impediments to Reuse
-		 - Not invented her (NIH) syndrome
+		 - Not invented here (NIH) syndrome
 		 - Concerns about faults in potentially reusable routines
 		 - Storage-retrieval issues
 		 - Cost of reuse
