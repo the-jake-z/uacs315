@@ -127,13 +127,13 @@
 				 - Uncontrolled data access can lead to computer crime
 					 - You don't need access to a Social Security number to change someone's name
 		 - Stamp coupling is not bad if the whole data structure is used
- - Data Coupling
-	 - If all parameters are homogenous data items (simple parameters, or data structures all of whose elements are used by call module)
-	 - The difficulties of other coupling types are not present
-	 - Maintenance is easier
-	 - The Importance of Managing Coupling
-		 - Changes to one module can require changes to another
-		 - Good design has high cohesion and low coupling
+	 - Data Coupling
+		 - If all parameters are homogenous data items (simple parameters, or data structures all of whose elements are used by call module)
+		 - The difficulties of other coupling types are not present
+		 - Maintenance is easier
+		 - The Importance of Managing Coupling
+			 - Changes to one module can require changes to another
+			 - Good design has high cohesion and low coupling
  - Key Definitions
 	 - Abstract Data Type
 	 - Abstraction
